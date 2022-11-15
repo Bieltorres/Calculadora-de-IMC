@@ -127,7 +127,8 @@ button:hover {
 }
 
 #result-container h3 {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 10px;
   color: #dfdfdf;
 }
 
@@ -137,7 +138,8 @@ button:hover {
 }
 
 #imc-table {
-  margin: 1.5rem 0;
+  margin-top: 1rem;
+  margin-bottom: 10px;
   font-size: 0.8rem;
 }
 
