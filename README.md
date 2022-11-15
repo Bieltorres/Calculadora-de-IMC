@@ -4,7 +4,7 @@ Calculadora de IMC
 
 Tecnologias utilizadas
 
-[Clique para acessar](https://github.com/Bieltorres/calculadora-de-IMC)
+[Clique para acessar](https://bieltorres.github.io/Calculadora-de-IMC/)
 
 - HTML
 - CSS

@@ -6,11 +6,11 @@
 }
 
 body {
-  background-color: #090e22;
+  background-color: #180922;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+
   color: #fff;
 }
 
@@ -18,20 +18,39 @@ body {
   display: none !important;
 }
 
+.content {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 20px;
+}
+
+.img {
+  width: 400px;
+}
+
 .container {
-  min-width: 400px;
-  min-height: 400px;
-  background-color: #1d1e33;
+  width: 400px;
+  height: 430px;
+  background-color: #1b1a1b;
   padding: 2rem;
   border-radius: 10px;
   border: 2px solid #dfdfdf;
   box-shadow: 0px 0px 5px 5px #1d1e33;
+  padding-right: 2rem;
 }
 
 /* IMC Form */
 #calc-container h2 {
   text-align: center;
+}
+
+#sub-title {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .form-inputs {
@@ -55,6 +74,7 @@ body {
 
 .form-control input {
   padding: 1rem 0.5rem;
+  background-color: aliceblue;
   border-radius: 10px;
 }
 
@@ -77,12 +97,18 @@ button {
   flex: 1;
 }
 
-button:hover {
-  opacity: 1;
+#calc-btn {
+  background-color: blueviolet;
+  font-weight: 700;
 }
 
 #clear-btn {
   background-color: #444;
+  font-weight: 700;
+}
+
+button:hover {
+  opacity: 1;
 }
 
 /* Table */
@@ -165,8 +191,17 @@ button:hover {
     width: auto;
   }
 
+  .content {
+    flex-direction: column;
+  }
+
+  .img {
+    width: 45vw;
+  }
+
   .container {
     width: 90%;
+    height: auto;
   }
 
   #calc-container {
